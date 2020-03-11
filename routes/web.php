@@ -39,3 +39,5 @@ $router->get('/user/{id}/{name}/{nim}', 'UserController@index');
 
 //contoh optional parameter
 $router->get('/mahasiswa/{nim}[/{name}]', 'UserController@test');
+
+$router->get('/pangkat/{a}/{b}', 'UserController@pangkat');

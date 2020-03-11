@@ -18,4 +18,9 @@ class UserController extends Controller
     public function test($nim, $name = 'saya') {
         return 'nim : '.$nim.' name: '.$name;
     }
+    public function pangkat($a, $b) {
+        $c= pow($a,$b);
+
+        return 'nilai pangkat adalah '.$c;
+    }
 }
